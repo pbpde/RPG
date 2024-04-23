@@ -99,7 +99,6 @@ public class PlayController : MonoBehaviour
             lastAttackTime = characterStats.attackData.coolDown;
         }
     }
-
     void Hit()
     {
         if (attackTarget.CompareTag("Attackable"))
